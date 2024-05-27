@@ -1,5 +1,5 @@
 export function Card({title , descriptionText, participationText, gameImage, gameAlt, link}){
-    const IMGSOURCE = `./src/assets/${gameImage}`
+    const IMGSOURCE = `./assets/${gameImage}`
     return(
         <div className = "card">
             <img src={IMGSOURCE} alt={gameAlt} />
