@@ -1,5 +1,5 @@
 export function Card({title , descriptionText, participationText, gameImage, gameAlt, link}){
-    const IMGSOURCE = `./assets/${gameImage}`
+    const IMGSOURCE = `https://github.com/dieguoin/dieguoin.github.io/tree/main/src/assets/${gameImage}`
     return(
         <div className = "card">
             <img src={IMGSOURCE} alt={gameAlt} />
