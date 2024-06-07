@@ -5,7 +5,7 @@ export function Container(){
 
         <div className="container">
             <Card title="Last Grove" 
-                descriptionText="Last Grove es un juego hecho por estudiantes universitarios, con varios artistas, varios programadires y 1 músico." 
+                descriptionText="Last Grove es un juego hecho por estudiantes universitarios, con varios artistas, varios programadores y 1 músico." 
                 participationText="Mi principal aportación, puesto que es un proyecto propio, ha sido como programador de todo el juego." 
                 gameImage="LastGrove.png" gameAlt="game image"
                 link="https://grimgreeneyes.itch.io/last-grove"></Card>
@@ -17,7 +17,7 @@ export function Container(){
                 link="https://www.oculus.com/experiences/quest/5715868665115254/?ranking_trace=109698451666589_5715868665115254_SKYLINEWEB_705f96cc-fa6e-4b20-a36b-ef01b748d1f0&utm_source=www.google.com&utm_medium=oculusredirect"></Card>
             <Card title="Lost Fragments" 
                 descriptionText="Lost fragments es un juego creado para la GameGen Game Jam, Una Game Jam con el tema de ''Faltan partes''."
-                participationText="Mi principal aportación en este juego ha sido como desarrollador de la mecánicas bases de el personaje y del inventario." 
+                participationText="Mi principal aportación en este juego ha sido como desarrollador de las mecánicas base de el personaje y del inventario." 
                 gameImage="RobbotIcon.png" gameAlt="game image"
                 link="https://dieguoin.itch.io/lost-fragments"></Card>
             
