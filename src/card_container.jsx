@@ -5,19 +5,19 @@ export function Container(){
 
         <div className="container">
             <Card title="Last Grove" 
-                descriptionText="Last Grove es un juego hecho por estudiantes universitarios, con varios artistas, varios programadores y 1 músico." 
-                participationText="Mi principal aportación, puesto que es un proyecto propio, ha sido como programador de todo el juego." 
+                descriptionText="Last Grove is a videogame created by  team of college students, with a gruop of artists, programers and 1 musician." 
+                participationText="What I´ve done is as the main programer in the whole combat sistem."
                 gameImage="LastGrove.png" gameAlt="game image"
                 link="https://grimgreeneyes.itch.io/last-grove"></Card>
             <Card title="Archer`s  Defense" 
-                descriptionText="Archer Defense es un juego con las bases creadas como proyecto de universidad y mejorado a lo largo del tiempo, sin embargo, aun le queda un largo camino para estar terminado.
-                El proyecto es propio y se han conseguido los assets de la tienda o de compañeros de universidad." 
-                participationText="Mi principal aportación, puesto que es un proyecto propio, ha sido como programador de todo el juego." 
+                descriptionText="Archer´s defense is a game created as a college proyect and upgraded affter that, it`s still in developent, as I`m doing it as a hobby.
+                It´s my own project and the assets are from the asset store." 
+                participationText="What I`ve done, as it is my own proyect, is the hole game programing and design." 
                 gameImage="ArcherDefense.png" gameAlt="game image"
                 link="https://www.oculus.com/experiences/quest/5715868665115254/?ranking_trace=109698451666589_5715868665115254_SKYLINEWEB_705f96cc-fa6e-4b20-a36b-ef01b748d1f0&utm_source=www.google.com&utm_medium=oculusredirect"></Card>
             <Card title="Lost Fragments" 
-                descriptionText="Lost fragments es un juego creado para la GameGen Game Jam, Una Game Jam con el tema de ''Faltan partes''."
-                participationText="Mi principal aportación en este juego ha sido como desarrollador de las mecánicas base de el personaje y del inventario." 
+                descriptionText="Lost fragments is a videogame created for GameGen Game Jam, a Game Jam with the main theme ''missing parts''."
+                participationText="What I´ve done is as the main developer for the mechanics and inventory." 
                 gameImage="RobbotIcon.png" gameAlt="game image"
                 link="https://dieguoin.itch.io/lost-fragments"></Card>
             

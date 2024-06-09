@@ -4,9 +4,9 @@ import { PresentationCard } from "./presentationCard";
 export function AboutMe(){
     return(
         <div>
-            <h1>Sobre mi</h1>
+            <h1>About me</h1>
             <PresentationCard/>
-            <p>Tengo conocimientos sobre varias tecnologías y lenguajes de programación. Entre los que mejor domino se encuentran:</p>
+            <p>I have knowledge in some programing languages and technologyes. Which I`m best are:</p>
             <ImageGrid/>
         </div>
     )
