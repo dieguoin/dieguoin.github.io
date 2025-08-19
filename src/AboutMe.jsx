@@ -3,10 +3,10 @@ import { PresentationCard } from "./presentationCard";
 
 export function AboutMe(){
     return(
-        <div>
-            <h1>About me</h1>
+    <div class="max-w-5xl mx-auto px-6 py-16">
+        <h1 class="text-4xl font-bold text-teal-400 text-center mb-12">About Me</h1>
             <PresentationCard/>
-            <p>I have knowledge in some programing languages and technologies. Which I`m best are:</p>
+            <p class="mt-12 text-center text-lg">I have experience with several programming languages and technologies:</p>
             <ImageGrid/>
         </div>
     )
