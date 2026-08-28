@@ -1,19 +1,50 @@
-export function PresentationCard(){
-    return(
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
-        <div class="flex-shrink-0">
-            <img src="https://raw.githubusercontent.com/dieguoin/dieguoin.github.io/main/src/assets/Diego.jpeg" 
-                alt="Diego Nicolás Barreales" 
-                class="w-52 h-52 object-cover rounded-2xl shadow-lg border border-gray-700"/>
+export function PresentationCard() {
+    return (
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+
+            <div className="flex justify-center">
+                <img
+                    src="https://raw.githubusercontent.com/dieguoin/dieguoin.github.io/main/src/assets/Diego.jpeg"
+                    alt="Diego Nicolás Barreales"
+                    className="w-56 h-56 object-cover rounded-2xl shadow-lg border border-gray-700"
+                />
+            </div>
+
+            <div className="space-y-5">
+
+                <h2 className="text-2xl font-semibold text-teal-300">
+                    About Me
+                </h2>
+
+                <p>
+                    I'm Diego Nicolás Barreales, a Video Game Design and
+                    Development graduate from Universidad Rey Juan Carlos.
+                </p>
+
+                <p>
+                    I'm primarily focused on gameplay programming and
+                    interactive experiences, with experience developing
+                    projects using Unity, C# and Virtual Reality technologies.
+                </p>
+
+                <p>
+                    I've worked on gameplay mechanics, interactive systems,
+                    user interfaces and modular game systems. I've also worked
+                    with OpenXR and Meta Quest for VR development.
+                </p>
+
+                <p>
+                    I'm currently expanding my experience with Unreal Engine
+                    and C++, developing a new project and learning more about
+                    Unreal's gameplay architecture and tools.
+                </p>
+
+                <p>
+                    I'm looking for opportunities as a Junior Game Developer,
+                    Gameplay Programmer, Unity Developer or VR Developer.
+                </p>
+
+            </div>
         </div>
-        <div class="space-y-4">
-            <h2 class="text-2xl font-semibold text-teal-300">Diego Nicolás Barreales</h2>
-            <p>Hi, I’m Diego Nicolás Barreales, a Video Game Design and Development graduate at Universidad Rey Juan Carlos. </p>
-            <p>Since I was young, I’ve been passionate about video games, and now I have the opportunity to create them myself. Throughout my studies and personal projects, I’ve gained hands-on experience in programming, game mechanics, and design, with a special interest in Virtual Reality.</p>
-            <p>I’m eager to apply and further develop my skills in a professional environment. I enjoy working in collaborative teams using agile methodologies, tackling challenges creatively, and asking for feedback when needed. I also value self-assessment, as I believe recognizing and correcting mistakes is an essential part of growth.</p>
-            <p>My main professional goal is to contribute to the future of immersive experiences through Virtual Reality development.</p>
-        </div>
-    </div>
-        
-    )
+    );
 }

@@ -1,6 +1,6 @@
 export function Contact(){
     return(
-    <section class="max-w-5xl mx-auto px-6 py-16 text-center">
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-16 text-center">
         <h1 class="text-4xl font-bold text-teal-400 mb-8">Contact</h1>
         <p class="mb-6">You can contact me via mail or LinkedIn:</p>
         <div class="flex flex-col md:flex-row items-center justify-center gap-6">

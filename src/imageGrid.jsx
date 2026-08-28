@@ -10,4 +10,4 @@ export function ImageGrid(){
       <img class="w-16 h-16 object-contain" src="https://raw.githubusercontent.com/dieguoin/dieguoin.github.io/main/src/assets/React.png" alt=""/>
     </div>
     )
-}
+} 
