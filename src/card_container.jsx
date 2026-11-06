@@ -1,46 +1,58 @@
-import {Card} from "./game_card.jsx"
+import { Card } from "./game_card.jsx";
 
-export function Container(){
-    return(
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <Card title="Last Grove" 
-                descriptionText="Last Grove is a videogame created by  team of college students, with a gruop of artists, programers and 1 musician." 
-                participationText="I served as the lead programmer responsible for the entire combat system."
-                gameImage="LastGrove.png" gameAlt="game image"
+export function Container() {
+    return (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <Card
+                title="Last Grove"
+                tech="Unity / C#"
+                genre="Turn-Based Strategy"
+                descriptionText="Tactical turn-based game developed by a multidisciplinary team. Built modular combat rules, tactical decision-making systems, and navigation grids."
+                gameImage="LastGrove.png"
+                gameAlt="Last Grove game screenshot"
                 link="https://grimgreeneyes.itch.io/last-grove"
-                participationList={["Turn-based loop" ,
-                    "Grid & Pathfinding" ,
-                    "Tactical AI",
-                    "Abilities & Area of Effect",
-                    "Combat Rules, Stats & Logic System"]}
-                ></Card>
-            
-            <Card title="Archer`s  Defense" 
-                descriptionText="Archer´s defense is a game created as a college proyect and upgraded affter that, it`s still in developent, as I`m doing it as a hobby.
-                It´s my own project and the assets are from the asset store." 
-                participationText="As this is my own project, I was fully responsible for both the game programming and the overall design." 
-                gameImage="ArcherDefense.png" gameAlt="game image"
+                roleTitle="KEY SYSTEMS DEVELOPED"
+                participationList={[
+                    "Turn-based execution loop & state machine",
+                    "Grid navigation & custom pathfinding",
+                    "Tactical enemy AI decision systems",
+                    "Abilities, Area of Effect (AoE) & stats logic"
+                ]}
+            />
+
+            <Card
+                title="Archer's Defense"
+                tech="Meta Quest / OpenXR"
+                genre="VR Action"
+                descriptionText="Solo VR defense experience published on Meta Quest App Lab. Focused on physics-based projectile mechanics, 6DoF hand tracking, and rock-solid framerate optimization."
+                gameImage="ArcherDefense.png"
+                gameAlt="Archer's Defense game screenshot"
                 link="https://www.oculus.com/experiences/quest/5715868665115254/?ranking_trace=109698451666589_5715868665115254_SKYLINEWEB_705f96cc-fa6e-4b20-a36b-ef01b748d1f0&utm_source=www.google.com&utm_medium=oculusredirect"
-                participationList={["Immersive Interaction & Spatial UX Design" ,
-                    "VR Mechanics & 6DOF Input Programming" ,
-                    "Performance Optimization & Frame Rate Control",
-                    "Spatial Level Design & 1:1 Scale Proportions",
-                    "Solo VR Project Management & Full-Stack Development"]}
-                ></Card>
-            
-            <Card title="Lost Fragments" 
-                descriptionText="Lost fragments is a videogame created for GameGen Game Jam, a Game Jam with the main theme ''missing parts''."
-                participationText="I worked as the main developer for core gameplay mechanics and the inventory system, including user interface implementation." 
-                gameImage="RobbotIcon.png" gameAlt="game image"
+                roleTitle="KEY SYSTEMS DEVELOPED"
+                participationList={[
+                    "6DoF archery interaction & physics-driven arrows",
+                    "Spatial UX & room-scale calibration",
+                    "Framerate optimization & draw-call reduction for mobile VR",
+                    "Wave spawning & continuous performance budgeting"
+                ]}
+            />
+
+            <Card
+                title="Lost Fragments"
+                tech="Unity / C#"
+                genre="Game Jam Project"
+                descriptionText="Short narrative adventure created for GameGen Game Jam under the theme 'Missing Parts'. Fast-paced development prioritizing modular inventory and interaction architecture."
+                gameImage="RobbotIcon.png"
+                gameAlt="Lost Fragments game screenshot"
                 link="https://dieguoin.itch.io/lost-fragments"
-                participationList={["Core gameplay mechanics" ,
-                    "Inventory system" ,
-                    "User interface implementation",
-                    "Main developer",
-                    "Integración UI/Gameplay"]}
-                ></Card>
-            
+                roleTitle="KEY SYSTEMS DEVELOPED"
+                participationList={[
+                    "Core gameplay loop & player controller",
+                    "Modular inventory and item socketing system",
+                    "Event-driven UI and gameplay integration",
+                    "Rapid prototyping under a strict game jam deadline"
+                ]}
+            />
         </div>
-    )
+    );
 }

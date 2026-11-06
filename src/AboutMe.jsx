@@ -1,4 +1,3 @@
-import { ImageGrid } from "./imageGrid";
 import { PresentationCard } from "./presentationCard";
 
 export function AboutMe() {
@@ -15,7 +14,7 @@ export function AboutMe() {
                 </h1>
 
                 <p className="mt-5 text-xl text-gray-400">
-                    Junior Game Developer · Gameplay Programmer · VR Developer
+                    Gameplay Programmer · Unity & C# · VR/XR Developer
                 </p>
 
                 <div className="flex justify-center gap-3 mt-6 flex-wrap">

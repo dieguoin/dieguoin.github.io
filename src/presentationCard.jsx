@@ -17,31 +17,31 @@ export function PresentationCard() {
                 </h2>
 
                 <p>
-                    I'm Diego Nicolás Barreales, a Video Game Design and
+                    I&apos;m Diego Nicolás Barreales, a Video Game Design and
                     Development graduate from Universidad Rey Juan Carlos.
                 </p>
 
                 <p>
-                    I'm primarily focused on gameplay programming and
-                    interactive experiences, with experience developing
-                    projects using Unity, C# and Virtual Reality technologies.
+                    I specialize in gameplay programming and interactive experiences,
+                    with a proven foundation in developing projects using Unity, C#,
+                    and Virtual Reality technologies.
                 </p>
 
                 <p>
-                    I've worked on gameplay mechanics, interactive systems,
-                    user interfaces and modular game systems. I've also worked
-                    with OpenXR and Meta Quest for VR development.
+                    My work spans gameplay mechanics, interactive systems, user
+                    interfaces, and modular architectures, alongside VR development
+                    using OpenXR and Meta Quest.
                 </p>
 
                 <p>
-                    I'm currently expanding my experience with Unreal Engine
-                    and C++, developing a new project and learning more about
-                    Unreal's gameplay architecture and tools.
+                    I am currently expanding my skill set with Unreal Engine and C++,
+                    developing a new project while exploring Unreal&apos;s gameplay
+                    framework and tooling.
                 </p>
 
                 <p>
-                    I'm looking for opportunities as a Junior Game Developer,
-                    Gameplay Programmer, Unity Developer or VR Developer.
+                    I am actively seeking opportunities as a Gameplay Programmer,
+                    Unity Developer, or VR/XR Developer.
                 </p>
 
             </div>

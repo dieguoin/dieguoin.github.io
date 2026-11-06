@@ -19,7 +19,7 @@ export function Projects() {
 
                     <p className="mt-5 text-gray-400 text-lg">
                         A selection of games and interactive experiences
-                        developed throughout my studies and personal projects.
+                        developed across academic coursework, game jams, and personal projects.
                     </p>
                 </div>
 
