@@ -11,6 +11,7 @@ export function Container() {
                 gameImage="LastGrove.png"
                 gameAlt="Last Grove game screenshot"
                 link="https://grimgreeneyes.itch.io/last-grove"
+                githubLink="https://github.com/GrimGreenEyes/Programming-Departament"
                 roleTitle="KEY SYSTEMS DEVELOPED"
                 participationList={[
                     "Turn-based execution loop & state machine",
@@ -28,6 +29,7 @@ export function Container() {
                 gameImage="ArcherDefense.png"
                 gameAlt="Archer's Defense game screenshot"
                 link="https://www.oculus.com/experiences/quest/5715868665115254/?ranking_trace=109698451666589_5715868665115254_SKYLINEWEB_705f96cc-fa6e-4b20-a36b-ef01b748d1f0&utm_source=www.google.com&utm_medium=oculusredirect"
+                githubLink="https://github.com/dieguoin/Archers-Defense-VR"
                 roleTitle="KEY SYSTEMS DEVELOPED"
                 participationList={[
                     "6DoF archery interaction & physics-driven arrows",
@@ -45,6 +47,7 @@ export function Container() {
                 gameImage="RobbotIcon.png"
                 gameAlt="Lost Fragments game screenshot"
                 link="https://dieguoin.itch.io/lost-fragments"
+                githubLink="https://github.com/dieguoin/RobbotAlone"
                 roleTitle="KEY SYSTEMS DEVELOPED"
                 participationList={[
                     "Core gameplay loop & player controller",
